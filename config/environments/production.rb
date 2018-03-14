@@ -1,6 +1,8 @@
 Rails.application.configure do
-  config.web_socket_server_url = "wss://action-cable-jay-johnson.herokuapp.com/cable"
-  config.action_cable.allowed_request_origins = ['https://action-cable-jay-johnson.herokuapp.com', 'http://action-cable-jay-johnson.herokuapp.com']
+  config.action_cable.url = 'wss://action-cable-jay-johnson.herokuapp.com/cable'
+  # config.web_socket_server_url = "wss://action-cable-jay-johnson.herokuapp.com/cable"
+  config.action_cable.allowed_request_origins = [ 'https://action-cable-jay-johnson.herokuapp.com']
+  # config.action_cable.allowed_request_origins = ['https://action-cable-jay-johnson.herokuapp.com', 'http://action-cable-jay-johnson.herokuapp.com']
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
