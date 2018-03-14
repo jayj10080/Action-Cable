@@ -7,4 +7,5 @@ test:
 
 production:
   adapter: redis
-  url: redis://localhost:6379/2
+  url: redis://redistogo:c56ef92abd6eb65014e249cb163a7ab7@crestfish.redistogo.com:9939/
+
